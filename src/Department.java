@@ -1,4 +1,7 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class Department {
     private String orgName = "Best ORG";
@@ -89,4 +92,14 @@ public class Department {
             }
         }
     }
+
+    public Employee[] getSortedEmployees() {
+        List<Employee> sortedEmployees = new ArrayList<>(employees);
+
+        Collections.sort(sortedEmployees, Comparator.comparing(Employee::getSurname)
+            .thenComparing(Employee::getName));
+
+        return sortedEmployees.toArray(new Employee[0]);
+    }
+
 }

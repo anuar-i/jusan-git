@@ -5,14 +5,16 @@ public class Main {
         int deptId = 0;
 
         //работники для добавления
-        Employee emp1 = new Employee("Alibek", "Alibekov");
-        Employee emp2 = new Employee("Bek", "Bekov");
+        Employee emp0 = new Employee("Balibek", "Alibekov");
+        Employee emp1 = new Employee("Bek", "Bekov");
+        Employee emp2 = new Employee("Alibek", "Alibekov");
         Employee emp3 = new Employee("Valibek", "Valibekov", 60000.0, "ceo");
         Employee emp4 = new Employee("John", "Doe", 40000.0, "auditor");
         Employee emp5 = new Employee();
 
         //для добавления списком
         ArrayList<Employee> employeeArrayList = new ArrayList<>();
+        employeeArrayList.add(emp0);
         employeeArrayList.add(emp1);
         employeeArrayList.add(emp2);
         employeeArrayList.add(emp3);
@@ -51,5 +53,7 @@ public class Main {
         System.out.println(d2.toString());
         System.out.println();
 
+        d1.getSortedEmployees();
+        System.out.println("sorted list" + "\n" + d1.toString());
     }
 }

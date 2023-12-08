@@ -1,0 +1,37 @@
+
+{
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(È™÷Òøÿÿÿÿ8¹æ¢ÇÄ1
+{
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(´­ªûÿÿÿÿ8¹æ¢ÇÄ1
+‹
+java:S1319%"iThe type of "employees" should be an interface such as "List" rather than the implementation "ArrayList".(³£âüÿÿÿÿ8ºæ¢ÇÄ1
+’
+java:S13190"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¨±©§ûÿÿÿÿ8ºæ¢ÇÄ1
+‹
+java:S13194"iThe type of "employees" should be an interface such as "List" rather than the implementation "ArrayList".(’‚Ò¼ÿÿÿÿÿ8ºæ¢ÇÄ1
+|
+java:S1104	"ZMake departmentName a static final constant or non-public and provide accessors if needed.(¯Ûã§øÿÿÿÿ8ºæ¢ÇÄ1
+Y
+java:S4973Y"<Strings and Boxed types should be compared using "equals()".(ŞùçŠ8»æ¢ÇÄ1
+Y
+java:S4973Y"<Strings and Boxed types should be compared using "equals()".(ŞùçŠ8»æ¢ÇÄ1
+
+java:S4165"lRemove this useless assignment; "departmentName" already holds the assigned value along all execution paths.(Ù“¾²ıÿÿÿÿ8Ùæ¢ÇÄ1
+Œ
+java:S4165"jRemove this useless assignment; "departmentId" already holds the assigned value along all execution paths.(”¥ˆõøÿÿÿÿ8Ùæ¢ÇÄ1
+‰
+java:S4165"gRemove this useless assignment; "employees" already holds the assigned value along all execution paths.(ûßÿÂşÿÿÿÿ8Ùæ¢ÇÄ1
+‡
+java:S4165"eRemove this useless assignment; "orgName" already holds the assigned value along all execution paths.(Ã¢ÉŒşÿÿÿÿ8Ùæ¢ÇÄ1
+X	java:S125"<This block of commented-out lines of code should be removed.(°çñ8İæ¢ÇÄ1
+L	java:S106T"+Replace this use of System.out by a logger.(öƒìĞÿÿÿÿÿ8åæ¢ÇÄ1
+L	java:S106["+Replace this use of System.out by a logger.(¸™Áàøÿÿÿÿ8çæ¢ÇÄ1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(ûßÿÂşÿÿÿÿ8éæ¢ÇÄ1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(Ã¢ÉŒşÿÿÿÿ8éæ¢ÇÄ1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(Ù“¾²ıÿÿÿÿ8éæ¢ÇÄ1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(”¥ˆõøÿÿÿÿ8éæ¢ÇÄ1
